@@ -1,0 +1,895 @@
+# Translation of Plugins - YITH WooCommerce Wishlist - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - YITH WooCommerce Wishlist - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-02-13 15:04:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - YITH WooCommerce Wishlist - Stable (latest release)\n"
+
+#: plugin-fw/templates/sysinfo/tabs/error-log.php:105
+msgid "Copy Code"
+msgstr "Копировать код"
+
+#: plugin-fw/templates/sysinfo/tabs/error-log.php:105
+msgid "Copied!"
+msgstr "Скопировано!"
+
+#. translators: %s file name.
+#: plugin-fw/templates/sysinfo/tabs/error-log.php:96
+msgid "No Log file available. Enable the WordPress debug by adding this in the %s file of your installation"
+msgstr "Нет доступного лог-файла. Включите отладку WordPress добавив следующие инструкции в %s файл вашей установки"
+
+#: plugin-fw/templates/sysinfo/tabs/main.php:40
+#: plugin-fw/templates/sysinfo/tabs/main.php:48
+msgid "Yes"
+msgstr "Да"
+
+#: plugin-fw/templates/sysinfo/tabs/main.php:40
+#: plugin-fw/templates/sysinfo/tabs/main.php:48
+msgid "No"
+msgstr "Нет"
+
+#: plugin-fw/includes/class-yit-assets.php:131
+msgid "Default"
+msgstr "По умолчанию"
+
+#: plugin-fw/includes/class-yit-assets.php:129
+msgid "Clear"
+msgstr "Очистить"
+
+#. translators: %1$s TLS label
+#: plugin-fw/includes/class-yith-system-status.php:608
+msgid "The system check cannot determine which %1$s version is installed due to a connection issue between your site and our server."
+msgstr "Проверка системы не может определить, какая версия %1$s установлена ​​из-за проблем с подключением между вашим сайтом и нашим сервером."
+
+#: plugin-fw/includes/class-yit-assets.php:130
+msgid "Clear color"
+msgstr "Очистить цвет"
+
+#: plugin-fw/includes/class-yit-assets.php:132
+msgid "Select default color"
+msgstr "Выберите цвет по умолчанию"
+
+#: plugin-fw/includes/class-yit-assets.php:133
+msgid "Select Color"
+msgstr "Выбрать цвет"
+
+#: plugin-fw/templates/fields/dimensions.php:94
+msgctxt "Tooltip in the \"Dimensions\" field"
+msgid "Link values together"
+msgstr "Объединить значения друг с другом"
+
+#: plugin-options/wishlist_page-options.php:231
+msgid "My wishlist"
+msgstr "Мой список желаний"
+
+#: includes/class.yith-wcwl-ajax-handler.php:73
+msgid "Close"
+msgstr "Закрыть"
+
+#: includes/class.yith-wcwl-admin.php:126
+msgid "Wishlist Page"
+msgstr "Страница списка желаний"
+
+#: plugin-fw/templates/fields/dimensions.php:14
+msgctxt "Position in the \"Dimensions\" field"
+msgid "Right"
+msgstr "Справа"
+
+#: plugin-fw/templates/fields/dimensions.php:16
+msgctxt "Position in the \"Dimensions\" field"
+msgid "Left"
+msgstr "Слева"
+
+#: plugin-fw/templates/fields/dimensions.php:15
+msgctxt "Position in the \"Dimensions\" field"
+msgid "Bottom"
+msgstr "Снизу"
+
+#: plugin-fw/templates/fields/dimensions.php:13
+msgctxt "Position in the \"Dimensions\" field"
+msgid "Top"
+msgstr "Сверху"
+
+#: includes/widgets/elementor/class.yith-wcwl-elementor-add-to-wishlist.php:180
+msgctxt "Elementor control label"
+msgid "Additional CSS classes for the button"
+msgstr "Дополнительные CSS-классы для кнопки"
+
+#: includes/widgets/elementor/class.yith-wcwl-elementor-add-to-wishlist.php:152
+msgctxt "Elementor section title"
+msgid "Advanced"
+msgstr "Дополнительно"
+
+#: includes/widgets/elementor/class.yith-wcwl-elementor-add-to-wishlist.php:143
+msgid "Product added to wishlist"
+msgstr "Товар добавлен в избранное"
+
+#: includes/widgets/elementor/class.yith-wcwl-elementor-add-to-wishlist.php:82
+msgctxt "Elementor section title"
+msgid "Product"
+msgstr "Товар"
+
+#: includes/widgets/elementor/class.yith-wcwl-elementor-add-to-wishlist.php:90
+msgctxt "Elementor control label"
+msgid "Product ID"
+msgstr "Идентификатор товара"
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:1347
+msgid ":) Thanks!"
+msgstr ":) Спасибо!"
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:1343
+msgid "We need your support"
+msgstr "Нам нужна ваша поддержка"
+
+#: templates/wishlist-view-mobile.php:174
+msgid "Quantity:"
+msgstr "Количество:"
+
+#: templates/wishlist-view-mobile.php:147
+msgid "Price:"
+msgstr "Цена:"
+
+#: includes/class.yith-wcwl-ajax-handler.php:72
+#: templates/add-to-wishlist-remove.php:50
+msgid "or"
+msgstr "или"
+
+#: templates/wishlist-view-footer-mobile.php:78
+#: templates/wishlist-view-footer.php:99
+msgid "Add all to cart"
+msgstr "Добавить все в корзину"
+
+#: templates/share.php:78
+msgid "Whatsapp"
+msgstr "Whatsapp"
+
+#: templates/wishlist-view.php:96
+msgid "Quantity"
+msgstr "Количество"
+
+#: templates/wishlist-view-footer-mobile.php:64
+#: templates/wishlist-view-footer.php:69
+msgid "Apply"
+msgstr "Применить"
+
+#: plugin-options/wishlist_page-options.php:57
+msgid "Product price"
+msgstr "Цена товара"
+
+#: plugin-options/add_to_wishlist-options.php:231
+#: plugin-options/wishlist_page-options.php:319
+msgid "Border radius"
+msgstr "Радиус границы"
+
+#: includes/class.yith-wcwl-admin.php:148
+msgid "General settings"
+msgstr "Основные настройки"
+
+#: plugin-fw/includes/class-yith-system-status.php:493
+msgid "N/A"
+msgstr "Н/Д"
+
+#: templates/share.php:87
+msgid "copy"
+msgstr "копировать"
+
+#: plugin-fw/includes/class-yith-system-status.php:488
+msgid "Enabled"
+msgstr "Включено"
+
+#: plugin-fw/includes/class-yith-system-status.php:191
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: plugin-fw/includes/class-yith-system-status.php:114
+msgid "TLS Version"
+msgstr "Версия TLS"
+
+#: plugin-fw/includes/class-yith-system-status.php:113
+msgid "PHP Version"
+msgstr "Версия PHP"
+
+#: plugin-fw/includes/class-yith-system-status.php:111
+msgid "WooCommerce Version"
+msgstr "Версия WooCommerce"
+
+#: plugin-fw/includes/class-yith-system-status.php:110
+msgid "WordPress Version"
+msgstr "Версия WordPress"
+
+#: plugin-fw/includes/class-yith-system-status.php:342
+msgid "Warning!"
+msgstr "Предупреждение!"
+
+#: plugin-fw/templates/sysinfo/system-information-panel.php:22
+msgid "YITH System Information"
+msgstr "Системная информация YITH"
+
+#: plugin-fw/includes/class-yith-system-status.php:140
+#: plugin-fw/includes/class-yith-system-status.php:141
+#: plugin-fw/templates/sysinfo/system-information-panel.php:11
+msgid "System Status"
+msgstr "Системная информация"
+
+#: plugin-fw/includes/class-yith-system-status.php:118
+msgid "ImageMagick Version"
+msgstr "Версия ImageMagick"
+
+#: plugin-fw/includes/class-yith-system-status.php:488
+msgid "Disabled"
+msgstr "Выключено"
+
+#: plugin-fw/templates/fields/select-buttons.php:32
+msgid "Remove All"
+msgstr "Удалить все"
+
+#: plugin-fw/templates/fields/select-buttons.php:19
+msgid "Add All"
+msgstr "Добавить все"
+
+#: templates/share.php:77
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: plugin-fw/includes/class-yith-dashboard.php:137
+msgctxt "Button label"
+msgid "Close"
+msgstr "Закрыть"
+
+#: plugin-fw/includes/class-yith-dashboard.php:35
+msgid "YITH Latest Updates"
+msgstr "Последние обновления YITH"
+
+#: plugin-fw/includes/class-yith-dashboard.php:96
+msgctxt "Plugin FW"
+msgid "View Changelog"
+msgstr "Посмотреть журнал изменений"
+
+#: plugin-fw/includes/class-yith-dashboard.php:56
+msgid "RSS Error:"
+msgstr "Ошибка RSS:"
+
+#: includes/class.yith-wcwl-shortcode.php:111
+#: includes/widgets/elementor/class.yith-wcwl-elementor-wishlist.php:114
+msgid "Do not paginate"
+msgstr "Не разбивать на страницы"
+
+#: includes/class.yith-wcwl-shortcode.php:107
+msgid "Choose whether to paginate items in the wishlist or show them all"
+msgstr "Выберите, нужно ли разбить элементы на страницы в списке пожеланий или показать их все"
+
+#: plugin-fw/includes/builders/gutenberg/class-yith-gutenberg.php:147
+msgctxt "[gutenberg]: Category Name"
+msgid "YITH"
+msgstr "YITH"
+
+#: includes/class.yith-wcwl-shortcode.php:110
+#: includes/widgets/elementor/class.yith-wcwl-elementor-wishlist.php:113
+msgid "Paginate"
+msgstr "Разбивать на страницы"
+
+#: includes/class.yith-wcwl-shortcode.php:101
+msgctxt "[gutenberg]: block name"
+msgid "YITH Wishlist"
+msgstr "YITH Список желаний"
+
+#. Description of the plugin
+msgid "<code><strong>YITH WooCommerce Wishlist</strong></code> gives your users the possibility to create, fill, manage and share their wishlists allowing you to analyze their interests and needs to improve your marketing strategies. <a href=\"https://yithemes.com/\" target=\"_blank\">Get more plugins for your e-commerce on <strong>YITH</strong></a>"
+msgstr "<code><strong>YITH WooCommerce Wishlist</strong></code> дает вашим пользователям возможность создавать, заполнять, управлять и делиться своими списками пожеланий, позволяя вам анализировать их интересы и потребности в совершенствовании ваших маркетинговых стратегий. <a href=\"https://yithemes.com/\" target=\"_blank\">Загрузите дополнительные плагины для электронной коммерции в <strong>YITH</strong></a>"
+
+#. Author of the plugin
+msgid "YITH"
+msgstr "YITH"
+
+#: plugin-fw/yit-plugin.php:190
+msgid "License"
+msgstr "Лицензия"
+
+#: plugin-fw/yit-plugin.php:186
+msgctxt "Action links"
+msgid "Settings"
+msgstr "Настройки"
+
+#: plugin-fw/yit-plugin.php:90
+msgctxt "Plugin Row Meta"
+msgid "Premium version"
+msgstr "Премиум версия"
+
+#: plugin-fw/yit-plugin.php:86
+msgctxt "Plugin Row Meta"
+msgid "Support"
+msgstr "Поддержка"
+
+#: plugin-fw/yit-plugin.php:82
+msgctxt "Plugin Row Meta"
+msgid "Documentation"
+msgstr "Документация"
+
+#: plugin-fw/yit-plugin.php:78
+msgctxt "Plugin Row Meta"
+msgid "Live Demo"
+msgstr "Демо"
+
+#: init.php:176
+msgid "You can't activate the free version of"
+msgstr "Вы не можете активировать бесплатную версию"
+
+#: init.php:176
+msgid "while you are using the premium one."
+msgstr "пока вы используете премиум версию."
+
+#: plugin-fw/includes/privacy/class-yith-privacy.php:106
+msgctxt "Privacy Policy Content"
+msgid "Payments"
+msgstr "Платежи"
+
+#: plugin-fw/includes/privacy/class-yith-privacy.php:103
+msgctxt "Privacy Policy Content"
+msgid "What we share with others"
+msgstr "Чем мы делимся с другими"
+
+#: plugin-fw/includes/privacy/class-yith-privacy.php:100
+msgctxt "Privacy Policy Content"
+msgid "Who on our team has access"
+msgstr "Кто в нашей команде имеет доступ"
+
+#: plugin-fw/includes/privacy/class-yith-privacy.php:97
+msgctxt "Privacy Policy Content"
+msgid "What we collect and store"
+msgstr "Что мы собираем и храним"
+
+#: plugin-fw/includes/privacy/class-yith-privacy.php:93
+msgctxt "Privacy Policy Content"
+msgid "This sample language includes the basics around what personal data your store may be collecting, storing and sharing, as well as who may have access to that data. Depending on what settings are enabled and which additional plugins are used, the specific information shared by your store will vary. We recommend consulting with a lawyer when deciding what information to disclose on your privacy policy."
+msgstr "Этот пример включает в себя основы того, какие персональные данные может собирать, хранить и передавать ваш магазин, а также кто может иметь доступ к этим данным. В зависимости от того, какие настройки включены и какие дополнительные плагины используются, конкретная информация, предоставляемая вашим магазином, будет отличаться. Мы рекомендуем проконсультироваться с юристом при принятии решения, какую информацию раскрывать в вашей политике конфиденциальности."
+
+#: plugin-fw/includes/privacy/class-yith-privacy.php:61
+msgctxt "Privacy Policy Guide Title"
+msgid "YITH Plugins"
+msgstr "Плагины YITH"
+
+#: includes/class.yith-wcwl-privacy.php:229
+msgid "Visibility"
+msgstr "Видимость"
+
+#: includes/class.yith-wcwl-privacy.php:225
+msgid "Token"
+msgstr "Токен"
+
+#: includes/class.yith-wcwl-privacy.php:135 plugin-options/lists-options.php:25
+#: plugin-options/lists-options.php:32
+msgid "Wishlists"
+msgstr "Wishlists"
+
+#: includes/class.yith-wcwl-privacy.php:62
+msgid "Our team members have access to this information to offer you better deals for the products you love."
+msgstr "Члены нашей команды имеют доступ к этой информации, чтобы предложить вам лучшие предложения для продуктов, которые вы любите."
+
+#: includes/class.yith-wcwl-privacy.php:50
+msgid "While you visit our site, we’ll track:"
+msgstr "Пока вы посещаете наш сайт, мы будем отслеживать:"
+
+#. Translators: %s Order number.
+#: includes/class.yith-wcwl-privacy.php:201
+msgid "Wishlist %s has been retained."
+msgstr "Список желаний %s был сохранен."
+
+#. Translators: %s Order number.
+#: includes/class.yith-wcwl-privacy.php:197
+msgid "Removed wishlist %s."
+msgstr "Удаленные списки желаний %s."
+
+#: includes/class.yith-wcwl-privacy.php:60
+msgid "Wishlist details, such as products added, date of addition, name and privacy settings of your wishlists"
+msgstr "Детали списка желаний, такие как добавленные продукты, дата добавления, имя и настройки конфиденциальности ваших списков желаний"
+
+#: includes/class.yith-wcwl-privacy.php:55
+msgid "We’ll also use cookies to keep track of wishlist contents while you’re browsing our site."
+msgstr "Мы также будем использовать файлы cookie для отслеживания содержимого списка желаний во время просмотра нашего сайта."
+
+#: includes/class.yith-wcwl-privacy.php:52
+msgid "Products you’ve added to the wishlist: we’ll use this to show you and other users your favourite products, and to create targeted email campaigns."
+msgstr "Продукты, которые вы добавили в список желаний: мы будем использовать их, чтобы показать вам и другим пользователям ваши любимые продукты, а также для создания целевых кампаний по электронной почте."
+
+#: plugin-fw/templates/fields/ajax-products.php:14
+msgid "Search Product"
+msgstr "Поиск товара"
+
+#: plugin-fw/templates/fields/ajax-posts.php:41
+msgid "Search Posts"
+msgstr "Поиск записей"
+
+#: plugin-fw/templates/fields/icons.php:63
+msgid "Set Default"
+msgstr "Установить по-умолчанию"
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:450
+#: plugin-fw/includes/class-yit-plugin-panel.php:453
+msgid "How to install premium version"
+msgstr "Как установить премиум-версию"
+
+#: plugin-fw/templates/fields/upload.php:39
+msgid "Reset"
+msgstr "Перезагрузить"
+
+#: templates/admin/wishlist-panel-premium.php:176
+msgid "Premium Features"
+msgstr "Премиум-функции"
+
+#: templates/admin/wishlist-panel-premium.php:211
+msgid "Estimate Cost"
+msgstr "Приблизительная стоимость"
+
+#: templates/admin/wishlist-panel-premium.php:237
+msgid "Search Wishlists"
+msgstr "Поиск по списку желаний"
+
+#: templates/admin/wishlist-panel-premium.php:244
+msgid "'ADD TO CART'"
+msgstr "'ДОБАВИТЬ В КОРЗИНУ'"
+
+#: templates/admin/wishlist-panel-premium.php:276
+msgid "UNLOGGED USERS"
+msgstr "ЗАЛОГИНЕННЫЕ ПОЛЬЗОВАТЕЛИ"
+
+#: templates/admin/wishlist-panel-premium.php:289
+msgid "POPULAR TABLE"
+msgstr "ТАБЛИЦА ПОПУЛЯРНЫЕ"
+
+#: templates/admin/wishlist-panel-premium.php:296
+msgid "FUNCTIONALITIES"
+msgstr "ФУНКЦИОНАЛЬНЫЕ ВОЗМОЖНОСТИ"
+
+#: templates/admin/wishlist-panel-premium.php:218
+msgid "Admin Panel"
+msgstr "Панель управления"
+
+#: templates/admin/wishlist-panel-premium.php:192
+msgid "Wishlist Private"
+msgstr "Личный список желаний"
+
+#: templates/admin/wishlist-panel-premium.php:185
+msgid "Multiple Wishlist"
+msgstr "Множественный список желаний"
+
+#: templates/admin/wishlist-panel-premium.php:168
+#: templates/admin/wishlist-panel-premium.php:309
+msgid "Upgrade to the %1$spremium version%2$s%3$sof %1$sYITH WooCommerce Wishlist%2$s to benefit from all features!"
+msgstr "Обновите %1$s %2$s %3$s %1$s YITH WooCommerce Wishlist %2$s до премиум версии чтобы воспользоваться всеми функциями!"
+
+#: templates/admin/wishlist-panel-premium.php:263
+msgid "DISABLE WISHLIST"
+msgstr "ОТКЛЮЧИТЬ СПИСОК ЖЕЛАНИЙ"
+
+#: plugin-fw/templates/fields/image-gallery.php:41
+msgid "Delete"
+msgstr "Удалить"
+
+#: includes/functions.yith-wcwl.php:423
+msgid "None"
+msgstr "Отсутствует"
+
+#: includes/class.yith-wcwl-wishlist-item.php:189
+msgid "Free!"
+msgstr "Бесплатно!"
+
+#: plugin-fw/templates/fields/upload.php:34
+#: plugin-fw/templates/panel/woocommerce/woocommerce-upload.php:37
+msgid "Upload"
+msgstr "Загрузить"
+
+#: templates/wishlist-view.php:227 templates/wishlist-view-mobile.php:192
+msgid "Out of stock"
+msgstr "Нет в наличии"
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:872
+msgid "An error has occurred during import. Please try again."
+msgstr "Произошла ошибка во время импорта. Пожалуйста, попробуйте еще раз."
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:873
+msgid "The added file is not valid."
+msgstr "Добавленный файл не является валидным."
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:874
+msgid "Sorry, import is disabled."
+msgstr "К сожалению, импорт отключен."
+
+#: templates/wishlist-view.php:156 templates/wishlist-view.php:290
+#: templates/wishlist-view-mobile.php:240
+msgid "Remove this product"
+msgstr "Удалить этот продукт"
+
+#: templates/share.php:61 templates/share.php:62
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: plugin-fw/templates/fields/sidebars.php:26
+#: plugin-fw/templates/fields/sidebars.php:29
+msgid "No sidebar"
+msgstr "Без боковой панели"
+
+#: plugin-fw/templates/fields/image-gallery.php:39
+msgid "Add images"
+msgstr "Добавить изображения"
+
+#: plugin-fw/templates/fields/image-gallery.php:38
+msgid "Add to gallery"
+msgstr "Добавить в галерею"
+
+#: plugin-fw/templates/fields/image-gallery.php:29
+#: plugin-fw/templates/fields/image-gallery.php:40
+msgid "Delete image"
+msgstr "Удалить изображение"
+
+#: plugin-fw/templates/fields/customtabs.php:41
+#: plugin-fw/templates/fields/customtabs.php:82
+msgid "Content of the tab. (HTML is supported)"
+msgstr "Содержимое вкладки. (Поддерживается HTML)"
+
+#: plugin-fw/templates/fields/customtabs.php:40
+#: plugin-fw/templates/fields/customtabs.php:81
+msgid "Value"
+msgstr "Значение"
+
+#: plugin-fw/templates/fields/customtabs.php:17
+msgid "Expand all"
+msgstr "Развернуть все"
+
+#: plugin-fw/templates/fields/customtabs.php:17
+msgid "Close all"
+msgstr "Закрыть все"
+
+#: plugin-fw/includes/class-yit-pointers.php:96
+msgid "Plugins Upgraded"
+msgstr "Обновления плагинов"
+
+#: plugin-fw/includes/class-yit-pointers.php:80
+msgid "Plugins Activated"
+msgstr "Плагины активированы"
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:875
+msgid "Sorting successful."
+msgstr "Сортировка выполнена успешно."
+
+#: templates/wishlist-view.php:79
+msgid "Product name"
+msgstr "Название товара"
+
+#: includes/functions.yith-wcwl.php:465
+msgid "Public"
+msgstr "Публичный"
+
+#: includes/functions.yith-wcwl.php:455
+msgid "Private"
+msgstr "Личный"
+
+#: includes/functions.yith-wcwl.php:445
+msgid "Shared"
+msgstr "По ссылке"
+
+#: templates/wishlist-view.php:260 templates/wishlist-view-mobile.php:211
+msgid "Move"
+msgstr "Переместить"
+
+#: templates/wishlist-view.php:227 templates/wishlist-view-mobile.php:192
+msgid "In Stock"
+msgstr "В наличии"
+
+#: templates/wishlist-view-header.php:42
+msgid "Edit title"
+msgstr "Редактировать заголовок"
+
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:34
+msgid "Reset Defaults"
+msgstr "Сброс"
+
+#: plugin-fw/templates/fields/sidebars.php:54
+msgid "Right Sidebar"
+msgstr "Правая боковая панель"
+
+#: plugin-fw/templates/fields/sidebars.php:39
+msgid "Left Sidebar"
+msgstr "Левая боковая панель"
+
+#: plugin-fw/templates/fields/sidebars.php:41
+#: plugin-fw/templates/fields/sidebars.php:56
+msgid "Choose a sidebar"
+msgstr "Выбрать боковую панель"
+
+#: plugin-fw/templates/fields/sidebars.php:23
+msgid "Right sidebar"
+msgstr "Правая боковая панель"
+
+#: plugin-fw/templates/fields/sidebars.php:20
+msgid "Left sidebar"
+msgstr "Левая боковая панель"
+
+#: plugin-fw/templates/fields/image-gallery.php:37
+msgid "Add Images to Gallery"
+msgstr "Добавить изображения в галерею"
+
+#: plugin-fw/templates/fields/customtabs.php:93
+msgid "Do you want to remove the custom tab?"
+msgstr "Вы хотите удалить вкладку?"
+
+#: plugin-fw/templates/fields/customtabs.php:52
+msgid "Add custom product tab"
+msgstr "Добавить произвольную вкладку товара"
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:871
+msgid "Database imported correctly."
+msgstr "База данных успешно импортирована."
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:869
+#: plugin-fw/includes/class-yit-plugin-panel.php:870
+msgid "Element updated correctly."
+msgstr "Элемент успешно обновлен."
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:868
+msgid "Element deleted correctly."
+msgstr "Элемент успешно удален."
+
+#. Author URI of the plugin
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"
+
+#. Plugin URI of the plugin
+msgid "https://yithemes.com/themes/plugins/yith-woocommerce-wishlist/"
+msgstr "https://yithemes.com/themes/plugins/yith-woocommerce-wishlist/"
+
+#: templates/wishlist-view.php:87
+msgid "Unit price"
+msgstr "Цена за шт."
+
+#: templates/wishlist-view.php:105
+msgid "Stock status"
+msgstr "Наличие"
+
+#: templates/wishlist-view.php:290 plugin-fw/templates/fields/customtabs.php:25
+#: plugin-fw/templates/fields/customtabs.php:68
+msgid "Remove"
+msgstr "Удалить"
+
+#: templates/share.php:69 templates/share.php:70
+msgid "Email"
+msgstr "Email"
+
+#: includes/class.yith-wcwl-shortcode.php:453
+#: plugin-options/wishlist_page-options.php:147
+msgid "Tweet on Twitter"
+msgstr "Поделиться в Twitter"
+
+#: includes/class.yith-wcwl-shortcode.php:471
+#: plugin-options/wishlist_page-options.php:156
+msgid "Pin on Pinterest"
+msgstr "Поделиться в Pinterest"
+
+#: includes/class.yith-wcwl-shortcode.php:412
+msgid "Share on:"
+msgstr "Поделиться в:"
+
+#: includes/class.yith-wcwl-ajax-handler.php:143
+#: includes/class.yith-wcwl-ajax-handler.php:179
+msgid "Product successfully removed."
+msgstr "Продукт успешно удален из избранного"
+
+#: includes/class.yith-wcwl.php:235 includes/class.yith-wcwl.php:241
+msgid "Error. Unable to remove the product from the wishlist."
+msgstr "Ошибка. Невозможно удалить продукт из избранного."
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:84
+msgid "Settings"
+msgstr "Настройки"
+
+#: plugin-fw/includes/class-yit-plugin-subpanel.php:132
+#: plugin-fw/includes/class-yit-plugin-panel.php:619
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:28
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: plugin-fw/templates/fields/customtabs.php:34
+#: plugin-fw/templates/fields/customtabs.php:76
+msgid "Name"
+msgstr "Имя"
+
+#: templates/share.php:53 templates/share.php:54
+msgid "Twitter"
+msgstr "Twitter"
+
+#: plugin-fw/templates/fields/ajax-terms.php:41
+msgid "Search Categories"
+msgstr "Поиск рубрик"
+
+#: plugin-fw/includes/class-yit-plugin-subpanel.php:136
+#: plugin-fw/includes/class-yit-plugin-panel.php:624
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:14
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: templates/share.php:45 templates/share.php:46
+msgid "Facebook"
+msgstr "Facebook"
+
+#: plugin-options/add_to_wishlist-options.php:20
+#: plugin-options/settings-options.php:25
+msgid "General Settings"
+msgstr "Общие настройки"
+
+#: includes/widgets/elementor/class.yith-wcwl-elementor-add-to-wishlist.php:113
+#: plugin-options/add_to_wishlist-options.php:127
+msgid "Add to wishlist"
+msgstr "Добавить в список желаний"
+
+#: plugin-options/wishlist_page-options.php:194
+msgid "My wishlist on %s"
+msgstr "Мой список желаний на  %s"
+
+#: plugin-fw/includes/class-yit-plugin-subpanel.php:139
+#: plugin-fw/includes/class-yit-plugin-panel.php:628
+msgid "Reset to default"
+msgstr "Восстановить настройки по умолчанию"
+
+#: plugin-fw/includes/class-yit-plugin-subpanel.php:136
+#: plugin-fw/includes/class-yit-plugin-panel.php:624
+#: plugin-fw/templates/panel/woocommerce/woocommerce-form.php:14
+msgid "If you continue with this action, you will reset all options in this page."
+msgstr "Если вы продолжите это действие, вы сбросите все параметры на этой странице."
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:83
+msgid "Plugin Settings"
+msgstr "Настройки плагина"
+
+#: plugin-fw/includes/class-yit-plugin-panel-woocommerce.php:419
+msgid "The changes you have made will be lost if you leave this page."
+msgstr "Изменения, которые вы внесли, будут потеряны, если вы покинете эту страницу."
+
+#: plugin-options/add_to_wishlist-options.php:200
+#: plugin-options/wishlist_page-options.php:288
+#: plugin-options/wishlist_page-options.php:377
+#: plugin-options/wishlist_page-options.php:426
+#: plugin-options/wishlist_page-options.php:474
+msgid "Border"
+msgstr "Граница"
+
+#: plugin-options/add_to_wishlist-options.php:195
+#: plugin-options/wishlist_page-options.php:283
+#: plugin-options/wishlist_page-options.php:372
+#: plugin-options/wishlist_page-options.php:421
+#: plugin-options/wishlist_page-options.php:469
+#: plugin-options/wishlist_page-options.php:506
+msgid "Text"
+msgstr "Текст"
+
+#: plugin-options/settings-options.php:53
+msgid "Enable slider in wishlist"
+msgstr "Включить слайдер в списке желаний"
+
+#: includes/widgets/elementor/class.yith-wcwl-elementor-add-to-wishlist.php:123
+#: plugin-options/add_to_wishlist-options.php:143
+msgid "Browse wishlist"
+msgstr "Посмотреть список желаний"
+
+#: includes/class.yith-wcwl-admin.php:238
+#: includes/class.yith-wcwl-install.php:350
+msgid "Wishlist"
+msgstr "Список желаний"
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:866
+msgid "Settings saved"
+msgstr "Настройки сохранены"
+
+#: includes/class.yith-wcwl-install.php:348
+msgctxt "page_slug"
+msgid "wishlist"
+msgstr "wishlist"
+
+#: plugin-options/add_to_wishlist-options.php:190
+#: plugin-options/wishlist_page-options.php:278
+#: plugin-options/wishlist_page-options.php:367
+#: plugin-options/wishlist_page-options.php:416
+#: plugin-options/wishlist_page-options.php:464
+#: plugin-options/wishlist_page-options.php:551
+#: plugin-options/wishlist_page-options.php:591
+#: plugin-options/wishlist_page-options.php:631
+#: plugin-options/wishlist_page-options.php:671
+#: plugin-options/wishlist_page-options.php:711
+msgid "Background"
+msgstr "Фон"
+
+#: plugin-options/wishlist_page-options.php:199
+msgid "Social text"
+msgstr "Текст сообщения"
+
+#: includes/class.yith-wcwl-shortcode.php:436
+#: plugin-options/wishlist_page-options.php:138
+msgid "Share on Facebook"
+msgstr "Поделиться в Facebook"
+
+#: plugin-options/add_to_wishlist-options.php:135
+msgid "Product added!"
+msgstr "Товар добавлен!"
+
+#: plugin-options/add_to_wishlist-options.php:132
+msgid "\"Product added\" text"
+msgstr "Надпись «Товар добавлен»"
+
+#: plugin-options/wishlist_page-options.php:110
+msgid "Redirect to cart"
+msgstr "Перенаправлять в корзину"
+
+#: plugin-options/add_to_wishlist-options.php:75
+#: plugin-options/add_to_wishlist-options.php:107
+msgid "Use shortcode"
+msgstr "Использовать шорткод"
+
+#: plugin-options/add_to_wishlist-options.php:106
+msgid "After summary"
+msgstr "После краткого описания"
+
+#: plugin-options/add_to_wishlist-options.php:104
+msgid "After \"Add to cart\""
+msgstr "После кнопки «Добавить в корзину»"
+
+#. Plugin Name of the plugin
+#: includes/class.yith-wcwl-admin.php:237
+msgid "YITH WooCommerce Wishlist"
+msgstr "YITH WooCommerce Wishlist"
+
+#: includes/class.yith-wcwl-admin.php:151
+msgid "Premium Version"
+msgstr "Премиум версия"
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:865
+msgid "The element you have entered already exists. Please, enter another name."
+msgstr "Введенный элемент уже существует. Пожалуйста, введите другое имя."
+
+#: plugin-options/settings-options.php:46
+msgid "YITH WooCommerce Frequently Bought Together Integration"
+msgstr "YITH WooCommerce покупают вместе"
+
+#: plugin-options/wishlist_page-options.php:208
+msgid "Social image URL"
+msgstr "URL изображения"
+
+#: plugin-options/add_to_wishlist-options.php:294
+msgid "Custom CSS"
+msgstr "Пользовательский CSS"
+
+#: plugin-options/add_to_wishlist-options.php:148
+msgid "\"Product already in wishlist\" text"
+msgstr "Текст \"Товар уже в списке желаний \""
+
+#: plugin-options/wishlist_page-options.php:119
+msgid "Remove if added to the cart"
+msgstr "Убирать, если в корзине"
+
+#: plugin-options/add_to_wishlist-options.php:140
+msgid "\"Browse wishlist\" text"
+msgstr "Надпись \"Посмотреть список желаний\""
+
+#: plugin-fw/includes/class-yit-plugin-panel.php:867
+msgid "Settings reset"
+msgstr "Сброс настроек"
+
+#: plugin-fw/includes/class-yith-system-status.php:183
+msgid "YITH Plugins"
+msgstr "Плагины YITH"
+
+#: plugin-options/add_to_wishlist-options.php:151
+msgid "The product is already in your wishlist!"
+msgstr "Товар уже в вашем Избранном!"
+
+#: plugin-options/add_to_wishlist-options.php:105
+msgid "After thumbnails"
+msgstr "После миниатюры"
+
+#: plugin-options/wishlist_page-options.php:165
+msgid "Share by email"
+msgstr "Поделиться по электронной почте"
