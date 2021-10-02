@@ -48,8 +48,7 @@ $('.auth-title').on('click', function () {
 
 });
 
-
-$('.right-slider').slick({
+let rightSliderOptions = {
   dots: false,
   infinite: false,
   speed: 300,
@@ -58,9 +57,8 @@ $('.right-slider').slick({
   rows: 0,
   prevArrow: '<div class="slick-arrow slick-prev"><svg width="39" height="98" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity=".7" d="M38 97 2 49 38 1" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg></div>',
   nextArrow: '<div class="slick-arrow slick-next"><svg width="39" height="98" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity=".7" d="m1 1 36 48L1 97" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg></div>',
-});
-
-$('.left-slider').slick({
+};
+let leftSliderOptions = {
   vertical: true,
   dots: false,
   infinite: false,
@@ -71,4 +69,39 @@ $('.left-slider').slick({
   rows: 0,
   prevArrow: '<div class="slick-arrow slick-prev"><svg width="34" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 13 17 1l16 12" stroke="#fff" stroke-linecap="round"/></svg></div>',
   nextArrow: '<div class="slick-arrow slick-next"><svg width="34" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M33 1 17 13 1 1" stroke="#fff" stroke-linecap="round"/></svg></div>',
+}
+// $('.right-slider').slick({
+//   dots: false,
+//   infinite: false,
+//   speed: 300,
+//   slidesToShow: 1,
+//   arrows: true,
+//   rows: 0,
+//   prevArrow: '<div class="slick-arrow slick-prev"><svg width="39" height="98" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity=".7" d="M38 97 2 49 38 1" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg></div>',
+//   nextArrow: '<div class="slick-arrow slick-next"><svg width="39" height="98" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity=".7" d="m1 1 36 48L1 97" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg></div>',
+// });
+
+// $('.left-slider').slick({
+//   vertical: true,
+//   dots: false,
+//   infinite: false,
+//   speed: 300,
+//   slidesToShow: 4,
+//   centerMode: true,
+//   arrows: true,
+//   rows: 0,
+//   prevArrow: '<div class="slick-arrow slick-prev"><svg width="34" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 13 17 1l16 12" stroke="#fff" stroke-linecap="round"/></svg></div>',
+//   nextArrow: '<div class="slick-arrow slick-next"><svg width="34" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M33 1 17 13 1 1" stroke="#fff" stroke-linecap="round"/></svg></div>',
+// });
+
+$('.button-arrow_show').on('click', function () {
+  $('.hero-search, .hero-menu, .button-arrow_hide, .hero-slider').addClass('active');
+  $(this).addClass('hidden');
+  $('.hero-header').addClass('hidden');
+  $('.left-slider').slick(leftSliderOptions);
+  $('.right-slider').slick(rightSliderOptions);
+});
+
+$('.button-arrow_hide').on('click', function () {
+  $('.hero-search').removeClass('active');
 });

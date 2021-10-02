@@ -8,6 +8,12 @@ if ( have_posts() ) :
     while ( have_posts() ) :  the_post(); ?>
 
         <section class="home-hero">
+            <div class="button-arrow button-arrow_show">
+                <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.333 8.66691L10.6663 18.0002L0.999673 8.66691" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M20.3335 1.66691L10.6668 11.0002L1.00016 1.66691" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </div>
             <div class="hero-menu">
                 <?php wp_nav_menu('Header'); ?>
             </div>
@@ -151,7 +157,7 @@ if ( have_posts() ) :
                     </div>
                     <div class="right-slider_item">
                         <div class="right-subtitle">Солнечный берег</div>
-                        <div class="right-title">Болгария</div>
+                        <div class="right-title">БолгарияБолгария</div>
                     </div>
                     <div class="right-slider_item">
                         <div class="right-subtitle">Солнечный берег</div>
@@ -163,6 +169,12 @@ if ( have_posts() ) :
             <div class="hero-header">
                 <h1 class="hero-title"><?php the_field('title'); ?></h1>
                 <div class="hero-subtitle"><?php the_field('subtitle'); ?></div>
+                <div class="button-arrow button-arrow_hide">
+                    <svg width="22" height="20" viewBox="0 0 22 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.333 8.66691L10.6663 18.0002L0.999673 8.66691" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M20.3335 1.66691L10.6668 11.0002L1.00016 1.66691" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
             </div>
             <div class="hero-images">
                 <div class="hero-half hero-summer" style="background-image: url(<?php the_field('summer'); ?>)"></div>
