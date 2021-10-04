@@ -1,0 +1,12 @@
+2021-10-04T06:04:44+00:00 CRITICAL syntax error, unexpected '<<' (T_SL), expecting end of file в C:\OpenServer\domains\bigallo.local\wp-content\themes\bigallo\woocommerce\myaccount\form-lost-password.php на строке 20
+
+2021-10-04T06:04:55+00:00 CRITICAL syntax error, unexpected '<', expecting end of file в C:\OpenServer\domains\bigallo.local\wp-content\themes\bigallo\woocommerce\myaccount\form-lost-password.php на строке 20
+
+2021-10-04T10:14:21+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file в C:\OpenServer\domains\bigallo.local\wp-content\themes\bigallo\functions.php на строке 163
+
+2021-10-04T10:14:22+00:00 CRITICAL syntax error, unexpected 'public' (T_PUBLIC), expecting end of file в C:\OpenServer\domains\bigallo.local\wp-content\themes\bigallo\functions.php на строке 163
+
+2021-10-04T10:14:40+00:00 CRITICAL Cannot use "self" when no class scope is active в C:\OpenServer\domains\bigallo.local\wp-content\themes\bigallo\functions.php на строке 177
+
+2021-10-04T10:14:41+00:00 CRITICAL Cannot use "self" when no class scope is active в C:\OpenServer\domains\bigallo.local\wp-content\themes\bigallo\functions.php на строке 177
+

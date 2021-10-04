@@ -159,3 +159,13 @@ function wc_add_confirm_password_checkout( $checkout_fields ) {
 
    return $checkout_fields;
 }
+
+add_shortcode( 'wc_lost_password_form_bigallo', 'bigallo_separate_lost_password_form' );
+  
+function bigallo_separate_lost_password_form() {
+   if ( is_admin() ) return;
+   if ( is_user_logged_in() ) return; 
+   ob_start();
+   wc_get_template_part('myaccount/form', 'lost-password');
+   return ob_get_clean();
+}

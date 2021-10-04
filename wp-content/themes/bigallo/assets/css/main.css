@@ -1028,14 +1028,15 @@ section {
 }
 .header-location {
     margin-right: 50px;
-}
+} 
 
 .auth-wrapper {
-    background: url(../images/auth-bg.jpg);
+    background: url(../images/auth-bg-wb.jpg);
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 .auth-blocks {
     width: 100%;
@@ -1161,6 +1162,15 @@ section {
     cursor: pointer;
 }
 
+.form-field .button-lp{
+    min-width: 350px;
+    width: 100%;
+}
+
+.form-field_button{
+    margin: 0;
+}
+
 .woocommerce-form-register .form-fields {
     display: flex;
     flex-wrap: wrap;
@@ -1243,6 +1253,80 @@ section {
 }
 .button-arrow_hide.active {
     display: flex;
+}
+
+.lost-password-wrapper{
+    background: url(../images/auth-bg-wb.jpg);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lost-password-blocks{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.lost-password.active{
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.lost-password-tab{
+    position: absolute;
+    z-index: 2;
+    max-width: 470px;
+    width: 100%;
+}
+
+.lost-password-title.active{
+    font-weight: bold;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.lost-password-title{
+    max-width: 1018px;
+    margin-left: 330px;
+    width: 100%;
+    font-size: 72px;
+    line-height: 84px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.3;
+    font-weight: normal;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.lost-password-block{
+    background: #FFFFFF;
+    box-shadow: -10px 12px 50px rgb(0 0 0 / 70%);
+    color: #0D2946;
+    padding: 10px;
+}
+
+.lost-password-content{
+    padding: 50px;
+    border: 1px solid rgba(0,0,0,.3);
+}
+
+.lost-password-content input{
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.cross{
+    position: absolute;
+    bottom: 212px;
+    right: 20px;
+    max-width: 24px;
+    max-height: 24px;
+    
 }
 
 @media screen and (max-width: 767px) {
